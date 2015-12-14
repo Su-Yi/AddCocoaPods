@@ -8,7 +8,8 @@
 * 但是，我们可以用淘宝的Ruby镜像来访问cocoapods。按照下面的顺序在终端中敲入依次敲入命令：		
 `$ gem sources --remove https://rubygems.org/`		
 
-* 等有反应之后再敲入以下命令   ps：很多文章用的是http的地址，现在用这个会变成404，所以要用https。		
+* 等有反应之后再敲入以下命令		
+* ps：很多文章用的是http的地址，现在用这个会变成404，所以要用https。		
 `$ gem sources -a https://ruby.taobao.org/`		
 
 * 为了验证你的Ruby镜像是并且仅是taobao，可以用以下命令查看：		
