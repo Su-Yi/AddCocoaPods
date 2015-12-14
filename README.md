@@ -14,11 +14,10 @@
 * 为了验证你的Ruby镜像是并且仅是taobao，可以用以下命令查看：		
 `$ gem sources -l`		
 
-* 只有在终端中出现下面文字才表明你上面的命令是成功的		
+* 只有在终端中出现下面文字才表明你上面的命令是成功的
 
-	*** CURRENT SOURCES ***	
-	
-	http://ruby.taobao.org/		
+		*** CURRENT SOURCES ***		
+		http://ruby.taobao.org/		
 
 * 这时候，你再次在终端中运行:		
 `$ sudo gem install cocoapods`				
